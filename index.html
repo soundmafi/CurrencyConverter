@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>converter</title>
+  </head>
+  <body>
+    <section class = "converter">
+      <div class="container">
+        <div class="header">
+          <h1 class="header__title">currency converter</h1>
+        </div>
+        <div class="controls">
+          <select name="" id="select" class="controls__select">
+            <option value="BYN" class="controls__option">BYN</option>
+            <option selected value="USD" class="controls__option">USD</option>
+            <option value="EUR" class="controls__option">EUR</option>
+            <option value="CNY" class="controls__option">CNY</option>
+            <option value="RUB" class="controls__option">RUB</option>
+          </select>
+          <input id = "input" type="number" class="controls__input">
+          <input type = 'date' id = 'date' class="controls__data">
+        </div>
+        <div class="results">          
+        </div>
+        <div class="warning invisible">
+          <div class="warning__container">
+            <p class="warning__text">Мы не предсказываем будущее</p>
+            <button class="warning__btn">close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </body>
+
+  <script src="./js/script.js"></script>
+</html>
